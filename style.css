@@ -197,3 +197,13 @@ li {
   line-height: 1.4;
   letter-spacing: 0.12%;
 }
+
+.article__share-btn {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  background-color: var(--grey-200);
+}
