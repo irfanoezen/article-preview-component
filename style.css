@@ -158,10 +158,29 @@ li {
 
 .article__author-container {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
 .article__author-container img {
   border-radius: 50%;
   width: 40px;
+}
+
+.article__author-name {
+  color: var(--grey-900);
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.12%;
+}
+
+.article__publishing-date {
+  color: var(--grey-400);
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.12%;
 }
