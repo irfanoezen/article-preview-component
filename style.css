@@ -158,9 +158,13 @@ ul {
 }
 
 .article__content-info {
-  display: flex;
+  display: none;
   gap: 16px;
   align-items: center;
+}
+
+.active {
+  display: flex;
 }
 
 .article__author-img {
