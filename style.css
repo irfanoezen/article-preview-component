@@ -230,3 +230,33 @@ ul {
     fill: #fff;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .article {
+    max-width: 608px;
+    grid-template-columns: 229px auto;
+  }
+
+  .article__head {
+    height: 100%;
+    grid-row: span 2;
+  }
+
+  .article__img {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    object-view-box: inset(0 120px 0 0);
+  }
+
+  .article__foot {
+    grid-column: 2 / 3;
+  }
+
+  .article__body {
+    padding: 41px 36px 8px 32px
+  }
+
+  .article__foot {
+      padding: 18px 36px 41px 32px;
+  }
+}
