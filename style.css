@@ -54,6 +54,7 @@ body {
   background-color: var(--grey-200);
   display: grid;
   place-content: center;
+  height: 100vh;
   /* 4. Add accessible line-height */
   line-height: 1;
   /* 5. Improve text rendering */
@@ -214,13 +215,12 @@ ul {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition-property: background-color, color;
+  transition: 0.3s ease-in-out;
 
   .share-icon {
     color: var(--grey-500);
   }
-
-  transition-property: background-color, color;
-  transition: 0.3s ease-in-out;
 }
 
 .btn-active {
