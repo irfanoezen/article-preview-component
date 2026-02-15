@@ -1,37 +1,39 @@
 :root {
-  --grey-900: #48556A;
-  --grey-500: #6E8098;
-  --grey-400: #9DAEC2;
-  --grey-200: #ECF2F8;
+  --grey-900: #48556a;
+  --grey-500: #6e8098;
+  --grey-400: #9daec2;
+  --grey-200: #ecf2f8;
 }
 
 /* manrope-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/manrope-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("assets/fonts/manrope-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* manrope-500 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
-  src: url('assets/fonts/manrope-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("assets/fonts/manrope-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* manrope-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
-  src: url('assets/fonts/manrope-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("assets/fonts/manrope-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -48,7 +50,7 @@
 }
 
 body {
-  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
   background-color: var(--grey-200);
   display: grid;
   place-content: center;
@@ -59,21 +61,29 @@ body {
 }
 
 /* 6. Improve media defaults */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
 /* 7. Inherit fonts for form controls */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /*
   10. Create a root stacking context
 */
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
 
@@ -106,7 +116,6 @@ ul {
 .article__body {
   padding: 32px 30px 30px 30px;
 }
-
 
 .article__title {
   font-size: 20px;
@@ -153,7 +162,12 @@ ul {
     gap: 16px;
   }
 
+  .article__links li {
+    cursor: pointer;
+  }
+
   .article__links li:nth-child(1) {
+    cursor: default;
     margin-inline-end: 8px;
     text-transform: uppercase;
     font-size: 13px;
@@ -162,8 +176,8 @@ ul {
     letter-spacing: 25%;
     color: var(--grey-400);
   }
-}
 
+}
 
 .active {
   display: flex;
@@ -199,6 +213,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
   .share-icon {
     color: var(--grey-500);
