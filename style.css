@@ -203,6 +203,9 @@ ul {
   .share-icon {
     color: var(--grey-500);
   }
+
+  transition-property: background-color, color;
+  transition: 0.3s ease-in-out;
 }
 
 .btn-active {
