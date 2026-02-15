@@ -136,6 +136,12 @@ ul {
   border-bottom-right-radius: 10px;
 }
 
+.article__content-info {
+  display: none;
+  gap: 16px;
+  align-items: center;
+}
+
 .article__popup {
   display: none;
   grid-column: 1 / 2;
@@ -157,11 +163,6 @@ ul {
   }
 }
 
-.article__content-info {
-  display: none;
-  gap: 16px;
-  align-items: center;
-}
 
 .active {
   display: flex;
@@ -193,6 +194,7 @@ ul {
   height: 40px;
   background-color: var(--grey-200);
   border-radius: 50%;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
