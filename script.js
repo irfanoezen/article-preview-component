@@ -9,9 +9,11 @@ shareButton.addEventListener("click", () => {
   contentInfo.classList.toggle("active");
   popupContent.classList.toggle("active");
   shareButton.classList.toggle("btn-active");
-  if(popupContent.classList.contains("active")) {
-    footerContent.style.backgroundColor = "var(--grey-900)";
-  } else {
-    footerContent.style.backgroundColor = "#fff";
+  if (window.innerWidth < 768) {
+    if (popupContent.classList.contains("active")) {
+      footerContent.style.backgroundColor = "var(--grey-900)";
+    } else {
+      footerContent.style.backgroundColor = "#fff";
+    }
   }
 });
