@@ -144,7 +144,6 @@ ul {
   /* background-color: var(--grey-900); */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: background-color 0.3s ease-in-out;
 }
 
 .article__content-info {
@@ -215,8 +214,6 @@ ul {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition-property: background-color, color;
-  transition: 0.3s ease-in-out;
 
   .share-icon {
     color: var(--grey-500);
