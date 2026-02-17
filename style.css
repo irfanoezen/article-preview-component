@@ -136,7 +136,7 @@ ul {
 }
 
 .article__foot {
-  padding: 18px 30px 18px 30px;
+  padding: 16px 30px 16px 30px;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -279,5 +279,25 @@ ul {
 
   .article__links {
     margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .article {
+    max-width: 730px;
+    grid-template-columns: 285px auto;
+  }
+
+  .article__body {
+    padding: 30px 40px 8px 40px;
+  }
+
+  .article__foot {
+    padding: 16px 40px 16px 40px;
+  }
+
+  .article__popup {
+    right: -43%;
+    bottom: 120%;
   }
 }
