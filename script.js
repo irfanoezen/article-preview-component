@@ -22,6 +22,7 @@ function handleUI(isResize) {
       footerContent.style.backgroundColor = "var(--grey-900)";
     } else {
       footerContent.style.backgroundColor = "#fff";
+      contentInfo.classList.add("active");
     }
   }
 }
