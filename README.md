@@ -15,7 +15,6 @@ This is my solution to the [Article preview component](https://www.frontendmento
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -84,7 +83,7 @@ I want to focus more on Vanilla Javascript in future projects. And I want to get
 
 ### Useful resources
 
-- [CSS triangle with borders](https://css-tricks.com/snippets/css/css-triangle/) - I really liked this guide and will use it future projects.
+- [CSS triangle with borders](https://css-tricks.com/snippets/css/css-triangle/) - I really liked this guide and will use it in future projects.
 - [Positioning image within a container](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-view-box) - This documentation helped me finally understand image positioning. I'd recommend it to anyone still learning this concept.
 
 ### AI Collaboration
@@ -93,5 +92,5 @@ I'm just using GitHub Copilot with the provided files from Frontend Mentor, to j
 
 ## Author
 
-- [Website](https://www.your-site.com)
 - Frontend Mentor - [@irfanoezen](https://www.frontendmentor.io/profile/irfanoezen)
+- GitHub - [@irfanoezen](https://github.com/irfanoezen)
